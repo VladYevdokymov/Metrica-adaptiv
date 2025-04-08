@@ -1,0 +1,24 @@
+.examples {
+    margin: 0 auto;
+    margin-bottom: 186px;
+    width: 1400px;
+    background-image: url("../resources/examples.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .examples__block {
+    height: 717px;
+    position: relative;
+  }
+  
+  .examples__text {
+    width: 443px;
+    position: absolute;
+    bottom: 60px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #FFFFFF;
+  }
