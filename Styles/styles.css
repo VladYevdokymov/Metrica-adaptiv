@@ -39,7 +39,7 @@ h2 {
 
 .container {
   max-width: 1180px;
-  min-width: 350px;
+  min-width: 375px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -72,7 +72,7 @@ h2 {
   }
 
   .all-projects__btn {
-    width: 100%
+    width: 100%;
   }
 }
 
