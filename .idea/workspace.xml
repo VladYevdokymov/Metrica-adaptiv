@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd881fcf-7a27-47de-95d9-9e15ee68658a" name="Changes" comment=".">
+    <list default="true" id="cd881fcf-7a27-47de-95d9-9e15ee68658a" name="Changes" comment="Добавил адапатив в Services">
+      <change afterPath="$PROJECT_DIR$/Styles/reviews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -41,26 +54,30 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2vUYI0isHbZ0VZRiHMu3vaCmfld" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Visual Studio Code Dark Plus theme for JetBrains IDEs/lib/Visual Studio Code Dark Plus theme for JetBrains IDEs-2.9.0.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Visual Studio Code Dark Plus theme for JetBrains IDEs/lib/Visual Studio Code Dark Plus theme for JetBrains IDEs-2.9.0.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vlad\WebstormProjects\Metrica-adaptiv\resources" />
@@ -98,7 +115,17 @@
       <workItem from="1745332662073" duration="631000" />
       <workItem from="1745333307407" duration="208000" />
       <workItem from="1745333524121" duration="1879000" />
-      <workItem from="1745355124025" duration="2557000" />
+      <workItem from="1745355124025" duration="3823000" />
+      <workItem from="1745488741121" duration="2236000" />
+      <workItem from="1745756968465" duration="2031000" />
+      <workItem from="1745918535875" duration="2451000" />
+      <workItem from="1746013200336" duration="2837000" />
+      <workItem from="1746183193448" duration="1547000" />
+      <workItem from="1746269881960" duration="2925000" />
+      <workItem from="1746522416047" duration="1243000" />
+      <workItem from="1746525169004" duration="1016000" />
+      <workItem from="1746613331293" duration="1226000" />
+      <workItem from="1746696543167" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал секцию services">
       <option name="closed" value="true" />
@@ -212,7 +239,39 @@
       <option name="project" value="LOCAL" />
       <updated>1745357497857</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=".">
+      <option name="closed" value="true" />
+      <created>1745357776480</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745357776480</updated>
+    </task>
+    <task id="LOCAL-00016" summary=".">
+      <option name="closed" value="true" />
+      <created>1745357796289</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1745357796289</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Добавил адапатив в Services">
+      <option name="closed" value="true" />
+      <created>1745358054184</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745358054184</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Добавил адапатив в Services">
+      <option name="closed" value="true" />
+      <created>1745358695405</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1745358695405</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +307,7 @@
     <MESSAGE value="Добавил адаптив в services" />
     <MESSAGE value="Revert &quot;Добавил адаптив в services&quot;&#10;&#10;This reverts commit 6a365bc2" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Добавил адапатив в Services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил адапатив в Services" />
   </component>
 </project>

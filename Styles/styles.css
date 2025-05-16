@@ -3,6 +3,7 @@
 @import "../Styles/about.css";
 @import "../Styles/projects.css";
 @import "../Styles/services.css";
+@import "../Styles/reviews.css";
 @import "../Styles/examples.css";
 @import "../Styles/contacts.css";
 @import "../Styles/footer.css";
@@ -15,6 +16,7 @@ html {
 
 body {
   width: 100%;
+  min-width: 375px;
   font-family: "Manrope", sans-serif;
   color: #121212;
   background-color: #ffffff;
@@ -39,7 +41,6 @@ h2 {
 
 .container {
   max-width: 1180px;
-  min-width: 375px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -67,7 +68,7 @@ h2 {
 @media (max-width: 1199px) {
   .container {
     max-width: 100%;
-    padding-left: 17px;
+    padding-left: 16px;
     padding-right: 17px;
   }
 
