@@ -1,0 +1,52 @@
+.gallery__container {
+    position: relative;
+}
+
+.gallery__title {
+    position: absolute;
+    z-index: 100;
+}
+
+.gallery__slides {
+    height: 500px;
+    position: relative;
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.gallery__slide-active {
+   opacity: 1;
+}
+
+.box {
+    height: 100%;
+}
+
+.box_green {
+    background-color: green;
+}
+
+.box_blue {
+    background-color: blue;
+}
+
+.box_red {
+    background-color: red;
+}
+
+.gallery__controls {
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}

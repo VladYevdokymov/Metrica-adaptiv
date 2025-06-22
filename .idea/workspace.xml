@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd881fcf-7a27-47de-95d9-9e15ee68658a" name="Changes" comment="Добавил адапатив в Services">
-      <change afterPath="$PROJECT_DIR$/Styles/reviews.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="cd881fcf-7a27-47de-95d9-9e15ee68658a" name="Changes" comment="Доделал секцию Services + сделал секцию отзывы">
+      <change afterPath="$PROJECT_DIR$/Styles/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -80,6 +78,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vlad\WebstormProjects\Metrica-adaptiv\Styles" />
       <recent name="C:\Users\Vlad\WebstormProjects\Metrica-adaptiv\resources" />
     </key>
   </component>
@@ -126,6 +125,11 @@
       <workItem from="1746525169004" duration="1016000" />
       <workItem from="1746613331293" duration="1226000" />
       <workItem from="1746696543167" duration="1504000" />
+      <workItem from="1747391114901" duration="1805000" />
+      <workItem from="1749558920282" duration="4992000" />
+      <workItem from="1749841408977" duration="3022000" />
+      <workItem from="1750114133558" duration="839000" />
+      <workItem from="1750118004513" duration="1222000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал секцию services">
       <option name="closed" value="true" />
@@ -271,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745358695405</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Доделал секцию Services + сделал секцию отзывы">
+      <option name="closed" value="true" />
+      <created>1747391284406</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1747391284406</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +320,7 @@
     <MESSAGE value="Revert &quot;Добавил адаптив в services&quot;&#10;&#10;This reverts commit 6a365bc2" />
     <MESSAGE value="." />
     <MESSAGE value="Добавил адапатив в Services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил адапатив в Services" />
+    <MESSAGE value="Доделал секцию Services + сделал секцию отзывы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доделал секцию Services + сделал секцию отзывы" />
   </component>
 </project>
