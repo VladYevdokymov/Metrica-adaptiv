@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd881fcf-7a27-47de-95d9-9e15ee68658a" name="Changes" comment="Доделал секцию Services + сделал секцию отзывы">
-      <change afterPath="$PROJECT_DIR$/Styles/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Styles/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gallery__slide-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gallery__slide-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gallery__slide-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gallery__slide-4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/reviews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +49,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/VladYevdokymov/Metrica-adaptiv.git&quot;,
-    &quot;accountId&quot;: &quot;7e0018a9-e7e5-4e4e-904c-9a62b9eeb378&quot;
+    &quot;accountId&quot;: &quot;84efde96-abc4-450a-adf8-66428f15587c&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -65,6 +72,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Visual Studio Code Dark Plus theme for JetBrains IDEs/lib/Visual Studio Code Dark Plus theme for JetBrains IDEs-2.9.0.jar&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -78,6 +86,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Malish\WebstormProjects\Metrica-adaptiv\resources" />
+      <recent name="C:\Users\Malish\WebstormProjects\Metrica-adaptiv" />
       <recent name="C:\Users\Vlad\WebstormProjects\Metrica-adaptiv\Styles" />
       <recent name="C:\Users\Vlad\WebstormProjects\Metrica-adaptiv\resources" />
     </key>
@@ -85,7 +95,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
       </set>
     </attachedChunks>
   </component>
@@ -130,6 +140,17 @@
       <workItem from="1749841408977" duration="3022000" />
       <workItem from="1750114133558" duration="839000" />
       <workItem from="1750118004513" duration="1222000" />
+      <workItem from="1750808317327" duration="759000" />
+      <workItem from="1750809525874" duration="69000" />
+      <workItem from="1750809602165" duration="88000" />
+      <workItem from="1750809702016" duration="325000" />
+      <workItem from="1750810036642" duration="102000" />
+      <workItem from="1751052350245" duration="918000" />
+      <workItem from="1751673479540" duration="1759000" />
+      <workItem from="1751761634785" duration="1326000" />
+      <workItem from="1751834831581" duration="4802000" />
+      <workItem from="1752013366617" duration="4068000" />
+      <workItem from="1752186976708" duration="1406000" />
     </task>
     <task id="LOCAL-00001" summary="Доделал секцию services">
       <option name="closed" value="true" />

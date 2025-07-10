@@ -1,15 +1,35 @@
+.gallery {
+    margin-top: 159px;
+}
+
 .gallery__container {
     position: relative;
+}
+
+.gallery__title-container {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    z-index: 100;
 }
 
 .gallery__title {
     position: absolute;
     z-index: 100;
+    padding-top: 34px;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .gallery__slides {
+    margin: 0 auto;
     height: 500px;
+    max-width: 1400px;
     position: relative;
+    z-index: 1;
 }
 
 .gallery__slide {
@@ -19,34 +39,91 @@
     height: 100%;
     width: 100%;
     opacity: 0;
+    transition: opacity 0.8s ease;
+    pointer-events: none;
 }
 
 .gallery__slide-active {
-   opacity: 1;
+    opacity: 1;
+    z-index: 2;
+    pointer-events: auto;
 }
 
-.box {
-    height: 100%;
+.gallery__item {
+    height: 800px;
+    background-repeat: no-repeat;
 }
 
-.box_green {
-    background-color: green;
+.gallery__item-1 {
+    background-image: url("../resources/gallery__slide-1.png");
 }
 
-.box_blue {
-    background-color: blue;
+.gallery__item-2 {
+    background-image: url("../resources/gallery__slide-2.png");
 }
 
-.box_red {
-    background-color: red;
+.gallery__item-3 {
+    background-image: url("../resources/gallery__slide-3.png");
+}
+
+.gallery__item-4 {
+    background-image: url("../resources/gallery__slide-4.png");
+}
+
+.gallery__text {
+    position: absolute;
+    font-size: 30px;
+    line-height: 40.98px;
+    top: 575px;
+    left: 127px;
+    max-width: 443px;
+    color: #FFFFFF;
+}
+
+.gallery__controls-container {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
 }
 
 .gallery__controls {
-    position: absolute;
-    bottom: 50%;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 30px;
+}
+
+.gallery__control {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 53px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.gallery__control:hover {
+    transform: scale(1.2);
+}
+
+.gallery__control-prev::before,
+.gallery__control-next::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    padding: 9px;
+    transform: rotate(135deg);
+}
+
+.gallery__control-next::before {
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+
 }
